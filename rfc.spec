@@ -1,6 +1,6 @@
 %define name    rfc
 %define version 3.2
-%define release 1mdk
+%define release %mkrel 1
 
 Summary:       Simple scripts for downloading and reading RFCs
 Name:          %{name}
