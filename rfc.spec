@@ -9,7 +9,6 @@ Release:       %{release}
 Source0:       %{name}-%{version}.tar.bz2
 License:       Public Domain
 Group:         Networking/Other
-BuildRoot:     %{_tmppath}/%{name}-buildroot
 Url:           http://www.dewn.com/rfc/
 Requires:      lynx
 BuildArch:     noarch
