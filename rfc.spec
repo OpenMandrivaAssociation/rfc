@@ -55,3 +55,32 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/emacs/site-lisp/rfc-util.el
 %dir /var/cache/rfc
 
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 3.2-5mdv2010.0
++ Revision: 433345
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tvignaud@mandriva.com> 3.2-4mdv2009.0
++ Revision: 260235
+- rebuild
+
+* Fri Jul 25 2008 Thierry Vignaud <tvignaud@mandriva.com> 3.2-3mdv2009.0
++ Revision: 248408
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 3.2-1mdv2008.1
++ Revision: 126592
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import rfc
+
+
+* Fri Jun 27 2003 Austin Acton <aacton@yorku.ca> 3.2-1mdk
+- from andi payn <payn@myrealbox.com> :
+  - initial specfile
+  - minor changes to configuration in build step
