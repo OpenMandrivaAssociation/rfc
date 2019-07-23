@@ -5,7 +5,7 @@
 Summary:       Simple scripts for downloading and reading RFCs
 Name:          %{name}
 Version:       %{version}
-Release:       %{release}
+Release:	1
 Source0:       %{name}-%{version}.tar.bz2
 License:       Public Domain
 Group:         Networking/Other
